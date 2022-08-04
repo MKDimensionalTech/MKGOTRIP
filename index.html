@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MK G0!Trip</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="localizacao.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -80,7 +80,7 @@
                 <div id="S2"></div>
             </div>
             <div id="viagens2">
-                <div id="viagem2">
+                <div id="viagem21">
                     <h1>Plano 2</h1>
                     <img src="pexels-mudassir-ali-1619854.jpg" alt="">
                     <h2>R$55,99<p>/mês</p></h2>
@@ -90,7 +90,7 @@
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                     <button>Assinar</button>
                 </div>
-                <div id="viagem3">
+                <div id="viagem31">
                     <h1>Plano 3</h1>
                     <img src="pexels-muhammed-ballan-10322305.jpg" alt="">
                     <h2>R$88,99<p>/mês</p></h2>
@@ -122,7 +122,7 @@
                 <div id="S2"></div>
             </div>
             <div id="viagens3">
-                <div id="viagem3">
+                <div id="viagem32">
                     <h1>Plano 3</h1>
                     <img src="pexels-muhammed-ballan-10322305.jpg" alt="">
                     <h2>R$88,99<p>/mês</p></h2>
@@ -132,7 +132,7 @@
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                     <button>Assinar</button>
                 </div>
-                <div id="viagem4">
+                <div id="viagem41">
                     <h1>Plano 4</h1>
                     <img src="pexels-pixabay-460672.jpg" alt="">
                     <h2>R$102,99<p>/mês</p></h2>
@@ -162,6 +162,10 @@
         const main =document.getElementById("main")
         const viagem1 = document.getElementById("viagem1")
         const viagem2 = document.getElementById("viagem2")
+        const viagem21 = document.getElementById("viagem21")
+        const viagem31 = document.getElementById("viagem31")
+        const viagem32 = document.getElementById("viagem32")
+        const viagem41 = document.getElementById("viagem41")
         const viagem3 = document.getElementById("viagem3")
         const viagem4 = document.getElementById("viagem4")
         const viagem5 = document.getElementById("viagem5")
@@ -176,7 +180,7 @@
         const seta2 = document.getElementById("seta2")
         seta2.addEventListener('click',slide2)
         const seta21 = document.getElementById("seta21")
-        seta21.addEventListener('click',slide31)
+        seta21.addEventListener('click',slid2e)
         const seta22 = document.getElementById("seta22")
         seta22.addEventListener('click',slide11)
         const seta1 = document.getElementById("seta1")
@@ -188,17 +192,25 @@
         function menuabrindo(){
             menuaberto.style.display="block"
             menuaberto.style.visibility='visible'
-            viagem1.style.width="200px"
-            viagem2.style.width="200px"
-            viagem3.style.width="200px"
-            viagem4.style.width="200px"
-            viagem5.style.width="200px"
+            viagem1.style.width="250px"
+            viagem21.style.width="250px"
+            viagem31.style.width="250px"
+            viagem32.style.width="250px"
+            viagem41.style.width="250px"
+            viagem2.style.width="250px"
+            viagem3.style.width="250px"
+            viagem4.style.width="250px"
+            viagem5.style.width="250px"
             main.style.marginLeft="200px"
         }
         function menufechando(){
             menuaberto.style.display="none"
             menuaberto.style.visibility='hidden'
             viagem1.style.width="300px"
+            viagem21.style.width="300px"
+            viagem31.style.width="300px"
+            viagem32.style.width="300px"
+            viagem41.style.width="300px"
             viagem2.style.width="300px"
             viagem3.style.width="300px"
             viagem4.style.width="300px"
@@ -214,24 +226,31 @@
             parte2.style.display="none"
         }
         function slide11(){
-            parte4.style.display="inline-flex"
-            parte2.style.display="none"
+            parte2.style.display="inline-flex"
+            parte3.style.display="none"
+            parte4.style.display="none"
         }
         function slide3(){
             parte4.style.display="inline-flex"
             parte2.style.display="none"
+            parte3.style.display="none"
+            
         }
         function slide1(){
             parte2.style.display="inline-flex"
             parte3.style.display="none"
+            parte4.style.display="none"
         }
         function slide21(){
             parte3.style.display="inline-flex"
             parte2.style.display="none"
+            parte4.style.display="none"
         }
-
-
-
+        function slid2e(){
+            parte4.style.display="inline-flex"
+            parte2.style.display="none"
+            parte3.style.display='none'
+        }
     </script>
 </body>
 </html>

@@ -1,3 +1,16 @@
+@charset "utf-8";
+@font-face {
+    font-family:"dream" ;
+    src: url(caviar_dreams/CaviarDreams.ttf) format("truetype");
+}
+@font-face {
+    font-family: "delmon" ;
+    src: url(delmon_delicate/Delmon\ Delicate.ttf) format("truetype");
+}
+@font-face {
+    font-family:"reglisse";
+    src: url(reglisse/Reglisse.otf) format("opentype");
+}
 *{
     margin: 0;
     padding: 0px;
@@ -9,6 +22,7 @@ div#parte1{
     display: flex;
 }
 div#parte1>h1{
+    font-family: 'dream','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin:auto;
     color: white;
     font-size: 3.7em;
@@ -29,16 +43,17 @@ div.traço{
     margin-left: 10px;
 }
 div#menuaberto{
+    height: 130vh;
     display: none;
     visibility: hidden;
     background-color: white;
     width: 300px;
     position: absolute;
-    height: 130vh;
     border-radius: 0px 30px;
     margin-top: -40px;
 }
 div#menuaberto>li{
+    font-family: 'delmon','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 50px;
     cursor: pointer;
     list-style: none;
@@ -66,16 +81,18 @@ div#seta1{
     margin-left: 10px;
 }
 div#seta11{
+    float: left;
     margin-top: 330px;
-    cursor: pointer;
     margin-right: 40px;
+    cursor: pointer;
     margin-left: 10px;
 }
 div#seta12{
+    float: left;
     margin-top: 330px;
     cursor: pointer;
     margin-right: 40px;
-    margin-left: 10px;
+    margin-left:10px;
 }
 div#S1{
     background-color: white;
@@ -181,6 +198,41 @@ div#viagem4{
     border-radius: 30px 30px;
     box-shadow: 5px 5px 5px rgb(3, 1, 51);
 }
+div#viagem41{
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    margin-top: 200px;
+    margin-right: 30px;
+    border-radius: 30px 30px;
+    box-shadow: 5px 5px 5px rgb(3, 1, 51);
+}
+div#viagem21{
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    margin-top: 200px;
+    margin-right: 30px;
+    border-radius: 30px 30px;
+    box-shadow: 5px 5px 5px rgb(3, 1, 51);
+}div#viagem31{
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    margin-top: 200px;
+    margin-right: 30px;
+    border-radius: 30px 30px;
+    box-shadow: 5px 5px 5px rgb(3, 1, 51);
+}
+div#viagem32{
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    margin-top: 200px;
+    margin-right: 30px;
+    border-radius: 30px 30px;
+    box-shadow: 5px 5px 5px rgb(3, 1, 51);
+}
 div#viagem5{
     background-color: white;
     width: 300px;
@@ -196,6 +248,7 @@ div#viagens1>div>img{
 }
 div#viagens1>div>li, h6, h2, h1{
     margin: 10px;
+    font-family: 'delmon','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 div#viagens1>div>button{
     cursor: pointer;
@@ -212,6 +265,7 @@ div#viagens2>div>img{
 }
 div#viagens2>div>li, h6, h2, h1{
     margin: 10px;
+    font-family: 'delmon','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 div#viagens2>div>button{
     cursor: pointer;
@@ -221,12 +275,14 @@ div#viagens2>div>button{
     padding: 10px;
     margin: 10px;
     border-radius: 20px 20px;
-}div#viagens3>div>img{
+}
+div#viagens3>div>img{
     width: 200px;
     height: 100px;
 }
 div#viagens3>div>li, h6, h2, h1{
     margin: 10px;
+    font-family: 'delmon','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 div#viagens3>div>button{
     cursor: pointer;
@@ -237,11 +293,12 @@ div#viagens3>div>button{
     margin: 10px;
     border-radius: 20px 20px;
 }
-DIV#parte3{
+div#parte3{
     display:none;
     margin-left: 130px;
+    width: 100px
 }
 div#parte4{
-   display: none;
+   display:none ;
    margin-left: 130px;
 }
